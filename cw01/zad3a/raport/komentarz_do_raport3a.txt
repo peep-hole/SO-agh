@@ -1,0 +1,3 @@
+Z przeprowadzony pomiarow wynika, ze srednio programy korzystajace z biblioteki dynamicznej jak i biblioteki wzpoldzielonej
+dzialaja nieznacznie szybciej od tych korzystajacych z biblioteki ladowanej statycznie. To specyficzne zjawisko, mozna wytlumaczyc
+tym, ze biblioteki te ladowane sa za kazdym rzem tylko 1 raz.

@@ -1,0 +1,10 @@
+Using system functions
+Times: Real = 38.070000, User = 3.100000, System = 34.950000 
+
+Using library functions
+Times: Real = 0.940000, User = 0.880000, System = 0.040000 \
+
+
+
+Z powyzszych pomiarow wynika, ze urzucie funkcji biblioteki standardowej jest zdecydowanie wydajniejsze niz urzycie funkcji systemowych.
+

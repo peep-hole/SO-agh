@@ -1,0 +1,4 @@
+Zarówno w zadaniu 1. jak i 2. przy pracy < 5 kuchrzy oraz dostawców, kucharze musieli czekać na wyjęcie pizzy z pieca 
+gdyż dostawcy nienadążali czasowo (Nieustannie 5 pizz na stole).
+Natomiast, gdy kucharzy i dostawców jest > 5, wąskim gardłem zdaje się piec, który ogranicza ilość pizz wykładanych na stół.
+W tym przypadku to dostawcy musieli czekać na kucharzy. (Nieustannie 5 pizz w piecu).

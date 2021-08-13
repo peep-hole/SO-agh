@@ -1,0 +1,9 @@
+______small_merge_______
+Times: Real = 0.060000, User = 0.000000, System = 0.010000 
+
+______medium_merge_______
+Times: Real = 0.020000, User = 0.000000, System = 0.000000 
+
+______large_merge_______
+Times: Real = 2.140000, User = 0.000000, System = 0.000000 
+

@@ -1,0 +1,3 @@
+Z wykonanych pomiarow wynika, ze program dziala dla bibliotek ladowanych statycznie nieznacznie szybciej. Wynika to
+z tego, ze biblioteka statyczna jest dolaczana do programu na etapie linkowania, a biblioteka dynamiczna w trakcie
+ladowania biblioteki do pamieci.

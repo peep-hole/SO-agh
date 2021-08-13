@@ -1,0 +1,14 @@
+składnik1 = cat /etc/passwd | wc -l
+składnik2 = ls | grep '^a'
+składnik3 = grep 49
+składnik4 = cat ./main.c | wc -l
+składnik5 = cat ./main.c | head -3 | sort -r
+składnik6 = grep include
+
+
+składnik1 | składnik3
+składnik2
+składnik4
+składnik5
+składnik1
+składnik5 | składnik6

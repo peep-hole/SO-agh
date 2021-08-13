@@ -1,0 +1,3 @@
+Co do urzycia bibliotek, wnioski te same co w zadaniu 3b. Jesli chodzi o poziomy optymalizacji. We wszystkich przypadkach
+zastosowanie poziomu optymalizacj o2 wypada najkorzystniej czasowo, natomiast zastosowanie o1 najgorzej
+czasowo.

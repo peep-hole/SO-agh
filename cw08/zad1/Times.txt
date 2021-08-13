@@ -1,0 +1,99 @@
+Wnioski: Metoda podziału na bloki okazała sięmniej skuteczna niż metoda podziału na przedziały liczbowe, metoda podzału\
+         bloki zadziałała lepiej jedynie przy 16 wątkach, było to jednak najprawdopodobniej spowodowane tym, że mój
+         komputer nie opsługiwał takiej ilości wątków. Dla podziału liczbowego, czas wykonywania rósł wraz z ilością
+         wątków, natomiast dla bloków czasy układają się następująco (1, 4, 2, 8, 16).
+
+
+
+Mode: blocks | threads: 1
+Thread 0, time: 316.544000 microseconds
+FULL TIME: 558.025000
+
+Mode: numbers | threads: 1
+Thread 0, time: 319.674000 microseconds
+FULL TIME: 484.462000
+
+Mode: blocks | threads: 2
+Thread 0, time: 338.170000 microseconds
+Thread 1, time: 272.757000 microseconds
+FULL TIME: 546.643000
+
+Mode: numbers | threads: 2
+Thread 0, time: 330.431000 microseconds
+Thread 1, time: 319.056000 microseconds
+FULL TIME: 508.326000
+
+Mode: blocks | threads: 4
+Thread 0, time: 322.209000 microseconds
+Thread 1, time: 291.194000 microseconds
+Thread 2, time: 273.601000 microseconds
+Thread 3, time: 321.293000 microseconds
+FULL TIME: 446.860000
+
+Mode: numbers | threads: 4
+Thread 0, time: 484.123000 microseconds
+Thread 1, time: 319.284000 microseconds
+Thread 2, time: 268.631000 microseconds
+Thread 3, time: 348.595000 microseconds
+FULL TIME: 590.153000
+
+Mode: blocks | threads: 8
+Thread 0, time: 542.535000 microseconds
+Thread 1, time: 445.020000 microseconds
+Thread 2, time: 447.642000 microseconds
+Thread 3, time: 422.395000 microseconds
+Thread 4, time: 361.027000 microseconds
+Thread 5, time: 370.759000 microseconds
+Thread 6, time: 327.365000 microseconds
+Thread 7, time: 355.045000 microseconds
+FULL TIME: 898.253000
+
+Mode: numbers | threads: 8
+Thread 0, time: 504.775000 microseconds
+Thread 1, time: 475.979000 microseconds
+Thread 2, time: 444.770000 microseconds
+Thread 3, time: 342.339000 microseconds
+Thread 4, time: 395.027000 microseconds
+Thread 5, time: 327.733000 microseconds
+Thread 6, time: 274.039000 microseconds
+Thread 7, time: 358.350000 microseconds
+FULL TIME: 867.368000
+
+Mode: blocks | threads: 16
+Thread 0, time: 478.825000 microseconds
+Thread 1, time: 498.091000 microseconds
+Thread 2, time: 424.208000 microseconds
+Thread 3, time: 455.963000 microseconds
+Thread 4, time: 409.833000 microseconds
+Thread 5, time: 303.720000 microseconds
+Thread 6, time: 396.535000 microseconds
+Thread 7, time: 380.031000 microseconds
+Thread 8, time: 390.250000 microseconds
+Thread 9, time: 407.149000 microseconds
+Thread 10, time: 347.159000 microseconds
+Thread 11, time: 293.224000 microseconds
+Thread 12, time: 386.784000 microseconds
+Thread 13, time: 354.815000 microseconds
+Thread 14, time: 259.444000 microseconds
+Thread 15, time: 348.397000 microseconds
+FULL TIME: 1420.202000
+
+Mode: numbers | threads: 16
+Thread 0, time: 570.364000 microseconds
+Thread 1, time: 530.263000 microseconds
+Thread 2, time: 433.085000 microseconds
+Thread 3, time: 475.376000 microseconds
+Thread 4, time: 531.342000 microseconds
+Thread 5, time: 392.268000 microseconds
+Thread 6, time: 434.689000 microseconds
+Thread 7, time: 381.037000 microseconds
+Thread 8, time: 490.247000 microseconds
+Thread 9, time: 382.615000 microseconds
+Thread 10, time: 361.825000 microseconds
+Thread 11, time: 457.357000 microseconds
+Thread 12, time: 355.375000 microseconds
+Thread 13, time: 278.272000 microseconds
+Thread 14, time: 340.961000 microseconds
+Thread 15, time: 264.513000 microseconds
+FULL TIME: 1200.732000
+

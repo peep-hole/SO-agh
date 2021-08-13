@@ -1,0 +1,12 @@
+Using system functions
+Times: Real = 68.700000, User = 3.920000, System = 64.640000 
+
+Using library functions
+Times: Real = 1.430000, User = 1.250000, System = 0.170000 
+
+Using system functions
+Times: Real = 0.220000, User = 0.010000, System = 0.190000 
+
+Using library functions
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+

@@ -1,0 +1,2 @@
+Proces potomny (stworzony za pomocą funkcji fork), dziedziczy ignorowanie, handler i maskowanie, natomiast sygnal, ktory czeka w przodku nie jest widoczny w procesie potomnym.
+Proces utworzny za pomocą funkcji exec dziedziczy ignorowanie, maskowanie, oraz na dodatek proces ktory czeka w przodku jest widoczny w procesie potomnym, natomiast nie dziedziczy on handlera.

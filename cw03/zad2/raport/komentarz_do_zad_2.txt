@@ -1,0 +1,3 @@
+Porownujac czasy dzialania programu dla pojedynczego procesu i dla wielu procesow, okazuje sie ze merge'owanie plikow
+w roznych procesach jest korzystniejsze czasowo. Byc moze jest to spowodowane, tym ze wspolczesne systemy operacyjne 
+sa zoptymalizowane pod katem dzialania wielu procesow jednoczesnie.

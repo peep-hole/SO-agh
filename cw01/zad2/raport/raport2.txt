@@ -1,0 +1,118 @@
+||||||||||||||STATIC||||||||||||||
+______small_merge_______
+Create table size 250
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 250 pairs of files
+Times: Real = 0.030000, User = 0.010000, System = 0.010000 
+
+______medium_merge_______
+Create table size 25
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 25 pairs of files
+Times: Real = 0.040000, User = 0.030000, System = 0.000000 
+
+______large_merge_______
+Create table size 3
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 3 pairs of files
+Times: Real = 3.560000, User = 2.300000, System = 1.240000 
+
+______merge_remove_merge_remove_(...)_______
+Create table size 1
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 1 pairs of files
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing line number 2 from block number 0
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing block number 0
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Create table size 250
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 50 pairs of files
+Times: Real = 0.020000, User = 0.000000, System = 0.000000 
+
+Removing line number 43 from block number 23
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing block number 32
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 100 pairs of files
+Times: Real = 0.020000, User = 0.010000, System = 0.000000 
+
+Removing line number 23 from block number 121
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing block number 99
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 100 pairs of files
+Times: Real = 0.010000, User = 0.010000, System = 0.010000 
+
+||||||||||||||SHARED||||||||||||||
+______small_merge_______
+Create table size 250
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 250 pairs of files
+Times: Real = 0.020000, User = 0.010000, System = 0.000000 
+
+______medium_merge_______
+Create table size 25
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 25 pairs of files
+Times: Real = 0.040000, User = 0.020000, System = 0.010000 
+
+______large_merge_______
+Create table size 3
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 3 pairs of files
+Times: Real = 3.920000, User = 2.480000, System = 1.430000 
+
+______merge_remove_merge_remove_(...)_______
+Create table size 1
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 1 pairs of files
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing line number 2 from block number 0
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing block number 0
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Create table size 250
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 50 pairs of files
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing line number 43 from block number 23
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing block number 32
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 100 pairs of files
+Times: Real = 0.020000, User = 0.000000, System = 0.010000 
+
+Removing line number 23 from block number 121
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Removing block number 99
+Times: Real = 0.000000, User = 0.000000, System = 0.000000 
+
+Merging 100 pairs of files
+Times: Real = 0.010000, User = 0.010000, System = 0.000000 
+
